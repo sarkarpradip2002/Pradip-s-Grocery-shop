@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <style>
+        .head{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            font-family: 'Dancing Script', cursive;
+            font-size: 18px;
+            color: white;
+            background-color:crimson;
+            border-radius: 20px;
+            position: sticky;
+        }
+        img{
+            height:30px;
+            width: 30px;
+            margin-bottom: -4px;
+        }
+        #left{
+            display: flex;
+            justify-content: space-evenly;
+            width: 200px;
+            margin-top: 3px;
+        }
+        #name{
+            margin-top: 5px;
+        }
+        #mid{
+            width: 400px;
+            height: 30px;
+        }
+        .list{
+            float: left;
+            list-style: none;
+            margin: 15px;
+        }
+        .mainlist{
+            margin-top: -7px;
+        }
+        #right{
+            margin: 9px;
+           
+        }
+        #right input{
+            width: 130px;
+            border-radius: 8px;
+            padding-left: 7px;
+        }
+        .list a{
+            text-decoration: none;
+            color: white;
+            text-decoration: underline;
+        }
+        .list a:hover{
+            color: cyan;
+        }
+         #img1 img {
+           height: 500px;
+            width: 400px; 
+            margin-top: 30px;
+            border-radius: 10px;
+        }
+        #img2 img{
+            height: 500px;
+            width: 400px; 
+            margin-top: 30px;
+            border-radius: 10px;
+        }
+        .middle{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .middle h1{
+            text-align: center;
+            font-family: 'Pacifico', cursive;
+            color: rgb(46, 55, 187);
+            text-decoration: underline;
+            text-shadow: -2px -2px 2px yellow;
+        }
+        #para1 li{
+            margin: 8px;
+            font-size: 25px;
+            color: rgb(245, 247, 243);
+        }
+        #write{
+            border: 6px solid rgb(152, 52, 199);
+            margin-top: 30px;
+            height: 500px;
+            border-radius: 10px;
+            width: 500px;
+            background-image:url(https://2rdnmg1qbg403gumla1v9i2h-wpengine.netdna-ssl.com/wp-content/uploads/sites/3/2016/03/shoppingFruit-1257380437-770x553-1-650x428.jpg) ;
+            background-repeat: none;
+            background-size: cover;
+            opacity: 10;
+            
+        }
+        #para1{
+            font-family: 'Caveat', cursive;
+            font-weight: 800;
+        }
+        hr{
+            margin-top: 20px;
+            width:80%;
+            border: 2px solid red;
+        }
+        .online{
+            height: 550px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            background-color: black;
+            align-items: center;
+            justify-content: center;
+            font-family:  'Kaushan Script', cursive;
+        }
+        .online h2{
+            color: white;
+            display: block;
+            font-size: 55px;
+            border: 2px solid white;
+            border-radius: 20px;
+            padding: 10px;
+            box-shadow: -5px -5px 7px cyan;
+        }
+        .online p{
+            color: white;
+            display: block;
+            margin-top: -25px;
+        }
+        .online input{
+            margin: 20px;
+            display: flex;
+            flex-direction: row;
+            height: 30px;
+            width: 250px;
+            text-align: center;
+            font-size: 20px;
+            border-radius: 20px;
+            font-family:  'Kaushan Script', cursive;
+        }
+        .input select {
+            height: 25px;
+            width: 100px;
+            display: block;
+            margin: auto;
+            
+        }
+        .btn{
+            display: block;
+            margin: auto;
+            height: 25px;
+            width: 75px;
+        }
+        .chat{
+            background-color: black;
+            width: 175px;
+            margin: 5px auto;
+            border-radius: 20px;
+        }
+        .chat img{
+            margin: 5px;
+        }
+        .chat a:hover{
+            background-color: cyan;
+            cursor: pointer;
+        }
+       
+    </style>
+</head>
+<body>
+    <header class="head">
+        <div id="left">
+            <div>
+                <img src="https://www.logodesign.net/logo/fruits-and-vegetable-in-shopping-cart-with-stars-6047ld.png?size=2&industry=grocery-shop" alt="">
+            </div>
+            <div id="name"> 
+                Pradip's grocery shop
+            </div>
+        </div>
+        <div id="mid">
+            <ul class="mainlist" >
+                <li class="list"><a href="">Home</a></li>
+                <li class="list"><a href="">Products </a></li>
+                <li class="list"><a href="">About us</a> </li>
+                <li class="list"><a href="">Contact us</a></li>
+            </ul>
+        </div>
+        <div id="right">
+            <input type="text" placeholder="search for products">
+        </div>
+    </header>
+    <div class="middle">
+        <div id="img1">
+            <img src="https://i.pinimg.com/564x/e3/5b/af/e35bafca787a9026b6b3358619bfefb1.jpg" alt="">
+        </div>
+        <div id="write">
+             <h1>Best grocery shop in kolkata</h1>
+            <div id="para1">
+                <ul>
+                    <li>Bakery and Bread</li>
+                    <li>Meat and Seafood</li>
+                    <li>Pasta and Rice</li>
+                    <li>Oils, Sauces, Salad Dressings, and Condiments</li>
+                    <li>Cereals and Breakfast Foods</li>
+                    <li>Soups and Canned Goods</li>
+                    <li>Frozen Foods</li>
+                    <li>Dairy, Cheese, and Eggs</li>
+                    <li>Snacks and Crackers</li>
+                    <li>Drinks</li>
+                </ul>
+            </div>
+        </div>
+        <div id="img2">
+            <img src="https://i.pinimg.com/236x/9d/6b/13/9d6b134690b204bef8c7136e33b95994.jpg" alt="">
+        </div>
+    </div>
+    <hr>
+    <div class="online">
+         <h2>Online Order</h2>
+         <p>(*If you visit our website first time please put your details below)</p>
+         <div class="input">
+             <input type="name" placeholder="Your Name ">
+             <input type="number" placeholder="Your Age ">
+             <select name="Gender" id="gender">
+                 <option value="male">Male</option>
+                 <option value="female">Female</option>
+                 <option value="others">Others</option>
+             </select>
+             <input type="text number" placeholder="Your Address ">
+             <input type="number" placeholder="Pin Code ">
+             <button class="btn">Submit</button>
+             
+         </div>
+
+    </div>
+    <div class="chat">
+        <a><img src="https://png.pngtree.com/element_our/md/20180520/md_5b0125139fe89.jpg" alt=""></a>
+        <a><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZWK5u5MbS3W04PArlmSXKuFSal_p-2qHFPA&usqp=CAU" alt=""></a>
+        <a><img src="https://us.123rf.com/450wm/ironsv/ironsv1906/ironsv190600136/124140056-telephone-icon-whatsapp-icon-vector-sign-symbol.jpg?ver=6" alt=""></a>
+        <a><img src="https://www.kindpng.com/picc/m/244-2442155_twitter-icon-round-black-hd-png-download.png" alt=""></a>
+    </div>
+   
+</html>
